@@ -1,1 +1,3 @@
-markdown: redcarpet
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+markdown: GFM
+highlither: pygments
