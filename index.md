@@ -1,5 +1,5 @@
 ---
-title: This is the title of the page
+title: TOMCAT Description
 layout: index
 ---
 
@@ -28,8 +28,8 @@ The critical energy of the 2.9 T superbend is 11.1 keV (compared to the 5.4 keV 
 The most relevant source parameters are summarized in the table below.
 
 
-                                                |
------------------------------------------------ | -
+Info                                            | Details
+----------------------------------------------- | -------
 Magnetic Field                                  | 2.9 T
 Critical Energy                                 | 11.1 keV / 0.112 nm
 Electron source size                            | 46 um, 16 um
@@ -77,6 +77,7 @@ Instead of using a collimating mirror, the vertical size of the beam is ”contr
 *Monochromatic Operation*: The expected multilayer/crystal translations are shown below.
 The beam offset will be between 7 and 10 mm for multilayers and 25 mm for the Si111.
 
+Info                                | Details
 ----------------------------------- | -------
 Energy Range                        | 8-45 keV
 Energy bandwidth                    | 2-3 % with multilayers
@@ -94,6 +95,7 @@ Beam Size @ 20 m from source        | 40 mm (H) x 7-4 mm (V) for energies betwee
 *White beam operation*: The DCMM can be easily removed from the beam path and white beam radiation can be provided at the enstation.
 Four quadruple and one triple filters batteries are available to pre-condition the radiation.
 
+Info                         | Details
 ---------------------------- | -------
 Beam Size @ 20 m from source | 40 mm (H) x 9 mm (V)
 Filter Battery 0             | 5 mm pyrolitic graphite, 20 mm pyrolitic graphite, 20 mm pyrolitc graphite + 75 um Pd
@@ -130,7 +132,8 @@ Mainly used for differential phase contrast imaging.
 The sample manipulator has been designed and manufactured at PSI.
 The major properties are summarized here:
 
--------------------------- | -                         
+Info                       | Details
+-------------------------- | -------                   
 Translation along X,Y,Z    | Reproducibility better than 1 micron
 Centering motors (XX,ZZ)   | Reproducibility better than 0.1 micron
 Rotation axis (Airbearing) | Runout < 1 um at 100 mm
