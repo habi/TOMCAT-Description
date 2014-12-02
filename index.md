@@ -28,8 +28,8 @@ The critical energy of the 2.9 T superbend is 11.1 keV (compared to the 5.4 keV 
 The most relevant source parameters are summarized in the table below.
 
 
-Info                                            | Details
------------------------------------------------ | -------
+Info | Details
+---- | -------
 Magnetic Field                                  | 2.9 T
 Critical Energy                                 | 11.1 keV / 0.112 nm
 Electron source size                            | 46 um, 16 um
@@ -77,8 +77,8 @@ Instead of using a collimating mirror, the vertical size of the beam is ”contr
 *Monochromatic Operation*: The expected multilayer/crystal translations are shown below.
 The beam offset will be between 7 and 10 mm for multilayers and 25 mm for the Si111.
 
-Info                                | Details
------------------------------------ | -------
+Info | Details
+---- | -------
 Energy Range                        | 8-45 keV
 Energy bandwidth                    | 2-3 % with multilayers
 Energy bandwidth                    | 0.018% with Si111
@@ -95,8 +95,8 @@ Beam Size @ 20 m from source        | 40 mm (H) x 7-4 mm (V) for energies betwee
 *White beam operation*: The DCMM can be easily removed from the beam path and white beam radiation can be provided at the enstation.
 Four quadruple and one triple filters batteries are available to pre-condition the radiation.
 
-Info                         | Details
----------------------------- | -------
+Info | Details
+---- | -------
 Beam Size @ 20 m from source | 40 mm (H) x 9 mm (V)
 Filter Battery 0             | 5 mm pyrolitic graphite, 20 mm pyrolitic graphite, 20 mm pyrolitc graphite + 75 um Pd
 Filter Battery 1             | 100 um, 200 um, 400 um Al, 20 um Cu
@@ -132,8 +132,8 @@ Mainly used for differential phase contrast imaging.
 The sample manipulator has been designed and manufactured at PSI.
 The major properties are summarized here:
 
-Info                       | Details
--------------------------- | -------                   
+Info | Details
+---- | -------                   
 Translation along X,Y,Z    | Reproducibility better than 1 micron
 Centering motors (XX,ZZ)   | Reproducibility better than 0.1 micron
 Rotation axis (Airbearing) | Runout < 1 um at 100 mm
@@ -151,8 +151,8 @@ TODO: Ultrafast endstation
 Depending on user requirements (optimize for speed or resolution) several scintillator are available.
 In particular:
 
-       | Thickness (um) | Resolution | Speed
------- | -------------- | ---------- | -----
+Scintillator | Thickness (um) | Resolution | Speed
+------------ | -------------- | ---------- | -----
 YAG:Ce | 20  | Good      | Good
 YAG:Ce | 150 | Medium    | Fast
 YAG:Ce | 300 | Poor      | Very Fast
@@ -163,7 +163,7 @@ CdWO4  | 300 | Poor      | Very Fast
 
 ## Readout electronics
 
-          | Physical pixel size [um] | Total pixel size
+Camera    | Physical pixel size [um] | Total pixel size
 --------- | ------------------------ | ----------------
 pco.Dimax | 6.5 | 2048 x 2048
 pco.Edge  | 5.5 | 2560 x 2160
@@ -180,13 +180,13 @@ Both optical system have been manufactured by Optique-Peter in Lyon, France.
 
 ## Objectives
 
-           | Magnification | Numerical Aperture | Field of view (mm2) | Pixel Size (um2)
+Lens       | Magnification | Numerical Aperture | Field of view (mm2) | Pixel Size (um2)
 ---------- | ------------- | ------------------ | ------------------- | ----------------
-PLAPO1.25x | 1.25 | 0.06 | 12.1x12.1 | 5.92x5.92
-PLAPO2x    | 2    | 0.08 |	7.5x7.5   | 3.7x3.7
-UPLAPO4x   | 4    | 0.16 | 3.7x3.7   | 1.85x1.85
-UPLAPO10x  | 10   | 0.40 | 1.5x1.5   | 0.74x0.74
-UPLAPO20x  | 20   | 0.70 | 0.75x0.75 | 0.37x0.37
+PLAPO1.25x | 1.25          | 0.06               | 12.1x12.1           | 5.92x5.92
+PLAPO2x    | 2             | 0.08               | 7.5x7.5             | 3.7x3.7
+UPLAPO4x   | 4             | 0.16               | 3.7x3.7             | 1.85x1.85
+UPLAPO10x  | 10            | 0.40               | 1.5x1.5             | 0.74x0.74
+UPLAPO20x  | 20            | 0.70               | 0.75x0.75           | 0.37x0.37
 
 ## Data-crunching and reconstruction 
 Tomographic data are post-processed online and reconstructions are available immediately after a scan for quality control.
